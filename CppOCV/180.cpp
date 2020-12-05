@@ -4,9 +4,8 @@
 using namespace cv;
 using namespace std;
 
-void mask_setTo()
-{
-	Mat src = imread("dog.bmp", IMREAD_COLOR);
+void mask_setTo(){
+	Mat src = imread("lenna.bmp", IMREAD_COLOR);
 
 	Mat mask = imread("mask_smile.bmp", IMREAD_GRAYSCALE);
 
